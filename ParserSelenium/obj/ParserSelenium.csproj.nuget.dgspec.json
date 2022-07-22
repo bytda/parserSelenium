@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/alina/Desktop/ParserSelenium/ParserSelenium/ParserSelenium.csproj": {}
+  },
+  "projects": {
+    "/Users/alina/Desktop/ParserSelenium/ParserSelenium/ParserSelenium.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/alina/Desktop/ParserSelenium/ParserSelenium/ParserSelenium.csproj",
+        "projectName": "ParserSelenium",
+        "projectPath": "/Users/alina/Desktop/ParserSelenium/ParserSelenium/ParserSelenium.csproj",
+        "packagesPath": "/Users/alina/.nuget/packages/",
+        "outputPath": "/Users/alina/Desktop/ParserSelenium/ParserSelenium/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/alina/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.Data.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[103.0.5060.5300, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

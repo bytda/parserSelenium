@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Selenium.WebDriver" />
+    <None Remove="Selenium.WebDriver.ChromeDriver" />
+    <None Remove="Microsoft.Data.Sqlite.Core" />
+    <None Remove="Microsoft.Data.Sqlite" />
+    <None Remove="System.Data.SQLite" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="4.3.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="103.0.5060.5300" />
+    <PackageReference Include="Microsoft.Data.Sqlite.Core" Version="6.0.7" />
+    <PackageReference Include="Microsoft.Data.Sqlite" Version="6.0.7" />
+  </ItemGroup>
+</Project>
