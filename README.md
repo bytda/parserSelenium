@@ -1,5 +1,5 @@
 # parserSelenium
-Парсер страницы https://www.lesegais.ru/open-area/deal записывающий данные в базу данных. 
+Парсер страницы https://www.lesegais.ru/open-area/deal записывающий данные в базу данных. Для работы необходим установленный браузер Google Chrome
 
 Тестовое задание А2:
 
